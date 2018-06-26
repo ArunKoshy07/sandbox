@@ -10,7 +10,6 @@ Created on 14 Jun 2018
 @author: cogarukoshy
 '''
 
-import pandas as pd
 import json
 import openweathermapy.core as owm
 import logging
