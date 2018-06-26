@@ -1,0 +1,8 @@
+pandas
+json
+openweathermapy 
+logging
+argparse
+datetime
+os
+time 
