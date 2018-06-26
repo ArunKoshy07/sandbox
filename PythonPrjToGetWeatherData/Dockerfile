@@ -1,6 +1,3 @@
-FROM python:3.4-alpine
-ADD . /code
-WORKDIR /code
+FROM python:3
 RUN pip install -r requirements.txt
-
-CMD ["sh", "./runJob.sh"]
+CMD ["sh", "./jobscripts/runJob.sh"]
