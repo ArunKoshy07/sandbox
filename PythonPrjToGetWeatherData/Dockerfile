@@ -4,5 +4,5 @@ COPY requirements.txt ./
 RUN pip install --upgrade pip
 RUN pip install --upgrade setuptools
 RUN pip install -r requirements.txt
-CMD["ls","-ltr"]
+CMD ["ls","-ltr"]
 CMD ["sh", "..\jobscripts\runJob.sh"]
